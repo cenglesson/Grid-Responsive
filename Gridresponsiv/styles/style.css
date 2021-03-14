@@ -1,0 +1,155 @@
+h1, h3 {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Righteous', cursive;
+}
+
+p, a {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Righteous', cursive;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.hero > * {
+    color:rgb(249, 245, 245) ;
+    text-shadow: 2px 2px #020202;
+}
+
+.hero > h1 {
+    font-size: 4rem;
+}
+
+.hero > article > p {
+    font-size: 1.5rem;
+}
+
+.hero {
+    background-image: url(../images/backa.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    padding: 8rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+}
+
+
+
+a {
+    background-color: rgb(48, 48, 48);
+    color: rgb(255, 254, 254);
+    border-radius: .25rem;
+    padding: .5rem;
+    transition: all .3s;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(203, 201, 201);
+}
+
+
+
+.cards > ul > li > a {
+    margin-left: 1rem;
+}
+
+
+
+.cards > ul {
+    display: grid;
+    padding-inline-start: 0;
+    list-style-type: none;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.cards > ul > li {
+    border: 1px solid #e2e2e2;
+    border-radius: .5rem;
+    padding-bottom:  1.5rem;
+}
+
+.cards > ul > li > figure {
+    max-height: 220px;
+    overflow: hidden; 
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    position: relative;
+    margin-inline-start: 1rem;
+    margin-inline-end: 1rem;
+}
+
+.cards > ul > li > figure > img {
+    width: 100%; 
+    
+}
+
+.cards > ul > li > figure > figcaption {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.536);
+    width: 100%;
+    text-align: center;
+}
+
+.cards > ul > li > figure > figcaption > h3 {
+    color: black;
+    font-size: 20px;
+  
+}
+
+.cards > ul > li > p {
+    padding: 1rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.flex-container a {
+    align-self: flex-end;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+footer {
+    background-color:rgb(48, 48, 48) ;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
